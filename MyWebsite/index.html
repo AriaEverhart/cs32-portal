@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Issa Alcordo</title>
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<!-- FontAwesome support -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- Custom Javascript File -->
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+	<!-- Custom CSS File -->
+	<link rel="stylesheet", type="text/css", href="css/my.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-sm navbar-my navbar-bg fixed-top" id="my-nav">
+		<a class="navbar-brand home-btn" href="#page-top"> <b id="my-icon">IA</b>&nbsp;&nbsp;Issa Alcordo</a>
+		<ul class="navbar-nav navbar-nav ml-auto">
+			<li class="nav-link"><a class="nav-link about-me-btn"   href="#about-me">About Me</a></li>
+			<li class="nav-link"><a class="nav-link projects-btn"   href="#projects">Projects</a></li>			
+			<li class="nav-link"><a class="nav-link contact-me-btn" href="#contact-me">Contact Me</a></li>
+		</ul>
+	</nav>
+	<!-- End of Navigation Bar -->
+
+	<!-- Home Div -->
+	<div class="my-BG" id="page-top">
+		<div class="container">
+			<div class="vh-center">
+				<div class="pop-text">Hi, I'm a <div class="white-pop-text">Web Developer</div>.</div>
+				<br>
+				<div class="mini-pop-text">My Name is Issa Alcordo</div>
+				<br><br><br>	
+				<a class="my-button rounded about-me-btn" href="#about-me">About Me</a>
+				<a class="my-button rounded projects-btn" href="#projects">My Projects</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- About Me Div -->
+	<div class="about-me-bg d-flex flex-row justify-content-center align-items-center" id="about-me">
+		<div class="about-me-box p-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at consectetur dui, vel facilisis nunc. Mauris id nunc nulla. Integer tempor nibh quis metus egestas luctus. Mauris ut felis id lectus porta efficitur. Morbi pharetra dui sit amet maximus ultricies. Ut id neque mauris. Cras odio dolor, convallis id placerat vitae, blandit sed urna. Praesent id tortor justo. Sed id luctus augue. </div>
+		
+	</div>
+
+	<!-- Projects Div -->
+	<div class="projects-bg d-flex flex-column justify-content-center align-items-center" id="projects">
+		<div class="projects-header"><h1>My Projects</h1></div>
+		<div class="projects-inner-flex d-flex">
+			<div class="project-box flex-column p-1 m-4 flex-even bg-light shadow-lg rounded" pointer;" onclick="window.location='Activity2/HTMLTutorial.html';">
+				<h2>Activity 1 & 2</h2>
+				<p>HTML Tutorial and CSS Application</p>
+			</div>
+			<div class="project-box flex-column p-1 m-4 flex-even bg-light shadow-lg rounded" pointer;" onclick="window.location='Activity3/index.html';">
+				<h2>Activity 3</h2>
+				<p>Javascript Practice</p>
+			</div>
+			<div class="project-box flex-column p-1 m-4 flex-even bg-light shadow-lg rounded" pointer;" onclick="window.location='midterms/index.php';">
+				<h2>Midterm Exam</h2>
+				<p>Database Application</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact Me Div -->
+	<div class="contact-me-bg" id="contact-me">
+		<div class="container">
+			<div class="h-center">
+				<h1> Contact Me </h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- To Top Button -->
+	<button onclick="topFunction()" id="to-top-btn" title="Go to top"><i class="fas fa-angle-double-up home-btn"></i></button>
+</body>
+
+</html>

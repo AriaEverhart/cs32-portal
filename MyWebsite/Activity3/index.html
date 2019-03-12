@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>[Alcordo] Calculator</title>
+	</head>
+	<script src=calculator.js></script>
+	<body>
+		<form>
+			<input type="number" id="numOne">  
+			<input type="number" id="numTwo">
+			<button type = "button" onclick="swap()">Swap</button>
+			<br><br>	
+			<table>
+				<tr>
+					<td><label for ="sum">Sum: </label></td>
+					<td><input type="text" id="sum" disabled></td>
+				</tr>
+				<tr>
+					<td><label for ="diff">Difference: </label></td>
+					<td><input type="text" id="diff" disabled></td>
+				</tr>
+				<tr>
+					<td><label for ="product">Product: </label></td>
+					<td><input type="text" id="product" disabled></td>
+				</tr>
+				<tr>
+					<td><label for ="quotient">Quotient: </label></td>
+					<td><input type="text" id="quotient" disabled></td>
+				</tr>
+				<tr>
+					<td><label for ="exp">Exponent: </label></td>
+					<td><input type="text" id="exp" disabled></td>
+				</tr>
+				<tr>
+					<td><button type = "button" onclick="calculate()">Calculate</button></td>
+					<td><button type = "reset">Clear All</button></td>
+				</tr>
+			</table>
+		
+		</form>
+	
+	</body>
+</html>
